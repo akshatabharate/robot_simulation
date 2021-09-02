@@ -161,7 +161,6 @@ end
 def print_result(x,y,face)
     a = []
     a.push(x,y,face)
-    
     render json: a ,status: :ok
 end
 end
